@@ -19,26 +19,26 @@
 		364D91A51DD5660000825E32 /* YDMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D919D1DD5660000825E32 /* YDMessageCell.m */; };
 		364D91A61DD5660000825E32 /* YDTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D919F1DD5660000825E32 /* YDTextMessageCell.m */; };
 		364D91A71DD5660000825E32 /* ORColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D91A11DD5660000825E32 /* ORColorUtil.m */; };
-		364D92171DD5AA9100825E32 /* chat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 364D91F21DD5AA9100825E32 /* chat.bundle */; };
-		364D92181DD5AA9100825E32 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D91F41DD5AA9100825E32 /* NSString+Emoji.m */; };
-		364D92191DD5AA9100825E32 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D91F61DD5AA9100825E32 /* UIColor+Hex.m */; };
-		364D921A1DD5AA9100825E32 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D91F81DD5AA9100825E32 /* UIImage+Bundle.m */; };
-		364D921B1DD5AA9100825E32 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D91FA1DD5AA9100825E32 /* UIImage+Color.m */; };
-		364D921C1DD5AA9100825E32 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D91FC1DD5AA9100825E32 /* UIView+HUD.m */; };
-		364D921D1DD5AA9100825E32 /* UIView+SWAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D91FE1DD5AA9100825E32 /* UIView+SWAutoLayout.m */; };
-		364D921E1DD5AA9100825E32 /* UIViewController+Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92001DD5AA9100825E32 /* UIViewController+Authorization.m */; };
-		364D921F1DD5AA9100825E32 /* YDAudioPressShortView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92031DD5AA9100825E32 /* YDAudioPressShortView.m */; };
-		364D92201DD5AA9100825E32 /* YDCancelSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92051DD5AA9100825E32 /* YDCancelSendView.m */; };
-		364D92211DD5AA9100825E32 /* YDChatBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92071DD5AA9100825E32 /* YDChatBaseViewController.m */; };
-		364D92221DD5AA9100825E32 /* YDChatBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92091DD5AA9100825E32 /* YDChatBottomToolView.m */; };
-		364D92231DD5AA9100825E32 /* YDChatPlusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D920B1DD5AA9100825E32 /* YDChatPlusView.m */; };
-		364D92241DD5AA9100825E32 /* YDChatRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D920D1DD5AA9100825E32 /* YDChatRefreshControl.m */; };
-		364D92251DD5AA9100825E32 /* YDEmojiKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D920F1DD5AA9100825E32 /* YDEmojiKeyboardCell.m */; };
-		364D92261DD5AA9100825E32 /* YDEmojiKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92111DD5AA9100825E32 /* YDEmojiKeyboardView.m */; };
-		364D92271DD5AA9100825E32 /* YDPlusViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92141DD5AA9100825E32 /* YDPlusViewModel.m */; };
-		364D92281DD5AA9100825E32 /* YDRecordingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92161DD5AA9100825E32 /* YDRecordingView.m */; };
 		364D922D1DD5AAAB00825E32 /* YDBaseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D922A1DD5AAAB00825E32 /* YDBaseMessage.m */; };
 		364D922E1DD5AAAB00825E32 /* YDImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D922C1DD5AAAB00825E32 /* YDImageMessage.m */; };
+		364D92581DD5C3EB00825E32 /* chat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 364D92331DD5C3EB00825E32 /* chat.bundle */; };
+		364D92591DD5C3EB00825E32 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92351DD5C3EB00825E32 /* NSString+Emoji.m */; };
+		364D925A1DD5C3EB00825E32 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92371DD5C3EB00825E32 /* UIColor+Hex.m */; };
+		364D925B1DD5C3EB00825E32 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92391DD5C3EB00825E32 /* UIImage+Bundle.m */; };
+		364D925C1DD5C3EB00825E32 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D923B1DD5C3EB00825E32 /* UIImage+Color.m */; };
+		364D925D1DD5C3EB00825E32 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D923D1DD5C3EB00825E32 /* UIView+HUD.m */; };
+		364D925E1DD5C3EB00825E32 /* UIView+SWAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D923F1DD5C3EB00825E32 /* UIView+SWAutoLayout.m */; };
+		364D925F1DD5C3EB00825E32 /* UIViewController+Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92411DD5C3EB00825E32 /* UIViewController+Authorization.m */; };
+		364D92601DD5C3EB00825E32 /* YDAudioPressShortView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92441DD5C3EB00825E32 /* YDAudioPressShortView.m */; };
+		364D92611DD5C3EB00825E32 /* YDCancelSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92461DD5C3EB00825E32 /* YDCancelSendView.m */; };
+		364D92621DD5C3EB00825E32 /* YDChatBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92481DD5C3EB00825E32 /* YDChatBaseViewController.m */; };
+		364D92631DD5C3EB00825E32 /* YDChatBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D924A1DD5C3EB00825E32 /* YDChatBottomToolView.m */; };
+		364D92641DD5C3EB00825E32 /* YDChatPlusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D924C1DD5C3EB00825E32 /* YDChatPlusView.m */; };
+		364D92651DD5C3EB00825E32 /* YDChatRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D924E1DD5C3EB00825E32 /* YDChatRefreshControl.m */; };
+		364D92661DD5C3EB00825E32 /* YDEmojiKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92501DD5C3EB00825E32 /* YDEmojiKeyboardCell.m */; };
+		364D92671DD5C3EB00825E32 /* YDEmojiKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92521DD5C3EB00825E32 /* YDEmojiKeyboardView.m */; };
+		364D92681DD5C3EB00825E32 /* YDPlusViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92551DD5C3EB00825E32 /* YDPlusViewModel.m */; };
+		364D92691DD5C3EB00825E32 /* YDRecordingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D92571DD5C3EB00825E32 /* YDRecordingView.m */; };
 		A75B2B250113C0D4B094AE4B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 883897BA2D4979A5891345C2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -63,47 +63,47 @@
 		364D919F1DD5660000825E32 /* YDTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDTextMessageCell.m; sourceTree = "<group>"; };
 		364D91A01DD5660000825E32 /* ORColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORColorUtil.h; sourceTree = "<group>"; };
 		364D91A11DD5660000825E32 /* ORColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORColorUtil.m; sourceTree = "<group>"; };
-		364D91F21DD5AA9100825E32 /* chat.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = chat.bundle; sourceTree = "<group>"; };
-		364D91F31DD5AA9100825E32 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
-		364D91F41DD5AA9100825E32 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
-		364D91F51DD5AA9100825E32 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		364D91F61DD5AA9100825E32 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		364D91F71DD5AA9100825E32 /* UIImage+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
-		364D91F81DD5AA9100825E32 /* UIImage+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
-		364D91F91DD5AA9100825E32 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		364D91FA1DD5AA9100825E32 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
-		364D91FB1DD5AA9100825E32 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
-		364D91FC1DD5AA9100825E32 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
-		364D91FD1DD5AA9100825E32 /* UIView+SWAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SWAutoLayout.h"; sourceTree = "<group>"; };
-		364D91FE1DD5AA9100825E32 /* UIView+SWAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SWAutoLayout.m"; sourceTree = "<group>"; };
-		364D91FF1DD5AA9100825E32 /* UIViewController+Authorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Authorization.h"; sourceTree = "<group>"; };
-		364D92001DD5AA9100825E32 /* UIViewController+Authorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Authorization.m"; sourceTree = "<group>"; };
-		364D92011DD5AA9100825E32 /* YDActionItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDActionItemProtocol.h; sourceTree = "<group>"; };
-		364D92021DD5AA9100825E32 /* YDAudioPressShortView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAudioPressShortView.h; sourceTree = "<group>"; };
-		364D92031DD5AA9100825E32 /* YDAudioPressShortView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAudioPressShortView.m; sourceTree = "<group>"; };
-		364D92041DD5AA9100825E32 /* YDCancelSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCancelSendView.h; sourceTree = "<group>"; };
-		364D92051DD5AA9100825E32 /* YDCancelSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCancelSendView.m; sourceTree = "<group>"; };
-		364D92061DD5AA9100825E32 /* YDChatBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatBaseViewController.h; sourceTree = "<group>"; };
-		364D92071DD5AA9100825E32 /* YDChatBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatBaseViewController.m; sourceTree = "<group>"; };
-		364D92081DD5AA9100825E32 /* YDChatBottomToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatBottomToolView.h; sourceTree = "<group>"; };
-		364D92091DD5AA9100825E32 /* YDChatBottomToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatBottomToolView.m; sourceTree = "<group>"; };
-		364D920A1DD5AA9100825E32 /* YDChatPlusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatPlusView.h; sourceTree = "<group>"; };
-		364D920B1DD5AA9100825E32 /* YDChatPlusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatPlusView.m; sourceTree = "<group>"; };
-		364D920C1DD5AA9100825E32 /* YDChatRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatRefreshControl.h; sourceTree = "<group>"; };
-		364D920D1DD5AA9100825E32 /* YDChatRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatRefreshControl.m; sourceTree = "<group>"; };
-		364D920E1DD5AA9100825E32 /* YDEmojiKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmojiKeyboardCell.h; sourceTree = "<group>"; };
-		364D920F1DD5AA9100825E32 /* YDEmojiKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmojiKeyboardCell.m; sourceTree = "<group>"; };
-		364D92101DD5AA9100825E32 /* YDEmojiKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmojiKeyboardView.h; sourceTree = "<group>"; };
-		364D92111DD5AA9100825E32 /* YDEmojiKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmojiKeyboardView.m; sourceTree = "<group>"; };
-		364D92121DD5AA9100825E32 /* YDMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMessageProtocol.h; sourceTree = "<group>"; };
-		364D92131DD5AA9100825E32 /* YDPlusViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPlusViewModel.h; sourceTree = "<group>"; };
-		364D92141DD5AA9100825E32 /* YDPlusViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPlusViewModel.m; sourceTree = "<group>"; };
-		364D92151DD5AA9100825E32 /* YDRecordingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRecordingView.h; sourceTree = "<group>"; };
-		364D92161DD5AA9100825E32 /* YDRecordingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRecordingView.m; sourceTree = "<group>"; };
 		364D92291DD5AAAB00825E32 /* YDBaseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBaseMessage.h; sourceTree = "<group>"; };
 		364D922A1DD5AAAB00825E32 /* YDBaseMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBaseMessage.m; sourceTree = "<group>"; };
 		364D922B1DD5AAAB00825E32 /* YDImageMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDImageMessage.h; sourceTree = "<group>"; };
 		364D922C1DD5AAAB00825E32 /* YDImageMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDImageMessage.m; sourceTree = "<group>"; };
+		364D92331DD5C3EB00825E32 /* chat.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = chat.bundle; sourceTree = "<group>"; };
+		364D92341DD5C3EB00825E32 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		364D92351DD5C3EB00825E32 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		364D92361DD5C3EB00825E32 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		364D92371DD5C3EB00825E32 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		364D92381DD5C3EB00825E32 /* UIImage+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
+		364D92391DD5C3EB00825E32 /* UIImage+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
+		364D923A1DD5C3EB00825E32 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		364D923B1DD5C3EB00825E32 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		364D923C1DD5C3EB00825E32 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		364D923D1DD5C3EB00825E32 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		364D923E1DD5C3EB00825E32 /* UIView+SWAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SWAutoLayout.h"; sourceTree = "<group>"; };
+		364D923F1DD5C3EB00825E32 /* UIView+SWAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SWAutoLayout.m"; sourceTree = "<group>"; };
+		364D92401DD5C3EB00825E32 /* UIViewController+Authorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Authorization.h"; sourceTree = "<group>"; };
+		364D92411DD5C3EB00825E32 /* UIViewController+Authorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Authorization.m"; sourceTree = "<group>"; };
+		364D92421DD5C3EB00825E32 /* YDActionItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDActionItemProtocol.h; sourceTree = "<group>"; };
+		364D92431DD5C3EB00825E32 /* YDAudioPressShortView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAudioPressShortView.h; sourceTree = "<group>"; };
+		364D92441DD5C3EB00825E32 /* YDAudioPressShortView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAudioPressShortView.m; sourceTree = "<group>"; };
+		364D92451DD5C3EB00825E32 /* YDCancelSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCancelSendView.h; sourceTree = "<group>"; };
+		364D92461DD5C3EB00825E32 /* YDCancelSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCancelSendView.m; sourceTree = "<group>"; };
+		364D92471DD5C3EB00825E32 /* YDChatBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatBaseViewController.h; sourceTree = "<group>"; };
+		364D92481DD5C3EB00825E32 /* YDChatBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatBaseViewController.m; sourceTree = "<group>"; };
+		364D92491DD5C3EB00825E32 /* YDChatBottomToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatBottomToolView.h; sourceTree = "<group>"; };
+		364D924A1DD5C3EB00825E32 /* YDChatBottomToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatBottomToolView.m; sourceTree = "<group>"; };
+		364D924B1DD5C3EB00825E32 /* YDChatPlusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatPlusView.h; sourceTree = "<group>"; };
+		364D924C1DD5C3EB00825E32 /* YDChatPlusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatPlusView.m; sourceTree = "<group>"; };
+		364D924D1DD5C3EB00825E32 /* YDChatRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatRefreshControl.h; sourceTree = "<group>"; };
+		364D924E1DD5C3EB00825E32 /* YDChatRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatRefreshControl.m; sourceTree = "<group>"; };
+		364D924F1DD5C3EB00825E32 /* YDEmojiKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmojiKeyboardCell.h; sourceTree = "<group>"; };
+		364D92501DD5C3EB00825E32 /* YDEmojiKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmojiKeyboardCell.m; sourceTree = "<group>"; };
+		364D92511DD5C3EB00825E32 /* YDEmojiKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmojiKeyboardView.h; sourceTree = "<group>"; };
+		364D92521DD5C3EB00825E32 /* YDEmojiKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmojiKeyboardView.m; sourceTree = "<group>"; };
+		364D92531DD5C3EB00825E32 /* YDMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMessageProtocol.h; sourceTree = "<group>"; };
+		364D92541DD5C3EB00825E32 /* YDPlusViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPlusViewModel.h; sourceTree = "<group>"; };
+		364D92551DD5C3EB00825E32 /* YDPlusViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPlusViewModel.m; sourceTree = "<group>"; };
+		364D92561DD5C3EB00825E32 /* YDRecordingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRecordingView.h; sourceTree = "<group>"; };
+		364D92571DD5C3EB00825E32 /* YDRecordingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRecordingView.m; sourceTree = "<group>"; };
 		883897BA2D4979A5891345C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8237701B36643801C46C68 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DA3FB911EAD6BE991A75D13E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		364D91421DD5630300825E32 /* YDRongCloudChatDemo */ = {
 			isa = PBXGroup;
 			children = (
-				364D91F11DD5AA9100825E32 /* YDIMKit */,
+				364D92321DD5C3EB00825E32 /* YDIMKit */,
 				364D91461DD5630300825E32 /* AppDelegate.h */,
 				364D91471DD5630300825E32 /* AppDelegate.m */,
 				364D91491DD5630300825E32 /* ViewController.h */,
@@ -203,46 +203,46 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
-		364D91F11DD5AA9100825E32 /* YDIMKit */ = {
+		364D92321DD5C3EB00825E32 /* YDIMKit */ = {
 			isa = PBXGroup;
 			children = (
-				364D91F21DD5AA9100825E32 /* chat.bundle */,
-				364D91F31DD5AA9100825E32 /* NSString+Emoji.h */,
-				364D91F41DD5AA9100825E32 /* NSString+Emoji.m */,
-				364D91F51DD5AA9100825E32 /* UIColor+Hex.h */,
-				364D91F61DD5AA9100825E32 /* UIColor+Hex.m */,
-				364D91F71DD5AA9100825E32 /* UIImage+Bundle.h */,
-				364D91F81DD5AA9100825E32 /* UIImage+Bundle.m */,
-				364D91F91DD5AA9100825E32 /* UIImage+Color.h */,
-				364D91FA1DD5AA9100825E32 /* UIImage+Color.m */,
-				364D91FB1DD5AA9100825E32 /* UIView+HUD.h */,
-				364D91FC1DD5AA9100825E32 /* UIView+HUD.m */,
-				364D91FD1DD5AA9100825E32 /* UIView+SWAutoLayout.h */,
-				364D91FE1DD5AA9100825E32 /* UIView+SWAutoLayout.m */,
-				364D91FF1DD5AA9100825E32 /* UIViewController+Authorization.h */,
-				364D92001DD5AA9100825E32 /* UIViewController+Authorization.m */,
-				364D92011DD5AA9100825E32 /* YDActionItemProtocol.h */,
-				364D92021DD5AA9100825E32 /* YDAudioPressShortView.h */,
-				364D92031DD5AA9100825E32 /* YDAudioPressShortView.m */,
-				364D92041DD5AA9100825E32 /* YDCancelSendView.h */,
-				364D92051DD5AA9100825E32 /* YDCancelSendView.m */,
-				364D92061DD5AA9100825E32 /* YDChatBaseViewController.h */,
-				364D92071DD5AA9100825E32 /* YDChatBaseViewController.m */,
-				364D92081DD5AA9100825E32 /* YDChatBottomToolView.h */,
-				364D92091DD5AA9100825E32 /* YDChatBottomToolView.m */,
-				364D920A1DD5AA9100825E32 /* YDChatPlusView.h */,
-				364D920B1DD5AA9100825E32 /* YDChatPlusView.m */,
-				364D920C1DD5AA9100825E32 /* YDChatRefreshControl.h */,
-				364D920D1DD5AA9100825E32 /* YDChatRefreshControl.m */,
-				364D920E1DD5AA9100825E32 /* YDEmojiKeyboardCell.h */,
-				364D920F1DD5AA9100825E32 /* YDEmojiKeyboardCell.m */,
-				364D92101DD5AA9100825E32 /* YDEmojiKeyboardView.h */,
-				364D92111DD5AA9100825E32 /* YDEmojiKeyboardView.m */,
-				364D92121DD5AA9100825E32 /* YDMessageProtocol.h */,
-				364D92131DD5AA9100825E32 /* YDPlusViewModel.h */,
-				364D92141DD5AA9100825E32 /* YDPlusViewModel.m */,
-				364D92151DD5AA9100825E32 /* YDRecordingView.h */,
-				364D92161DD5AA9100825E32 /* YDRecordingView.m */,
+				364D92331DD5C3EB00825E32 /* chat.bundle */,
+				364D92341DD5C3EB00825E32 /* NSString+Emoji.h */,
+				364D92351DD5C3EB00825E32 /* NSString+Emoji.m */,
+				364D92361DD5C3EB00825E32 /* UIColor+Hex.h */,
+				364D92371DD5C3EB00825E32 /* UIColor+Hex.m */,
+				364D92381DD5C3EB00825E32 /* UIImage+Bundle.h */,
+				364D92391DD5C3EB00825E32 /* UIImage+Bundle.m */,
+				364D923A1DD5C3EB00825E32 /* UIImage+Color.h */,
+				364D923B1DD5C3EB00825E32 /* UIImage+Color.m */,
+				364D923C1DD5C3EB00825E32 /* UIView+HUD.h */,
+				364D923D1DD5C3EB00825E32 /* UIView+HUD.m */,
+				364D923E1DD5C3EB00825E32 /* UIView+SWAutoLayout.h */,
+				364D923F1DD5C3EB00825E32 /* UIView+SWAutoLayout.m */,
+				364D92401DD5C3EB00825E32 /* UIViewController+Authorization.h */,
+				364D92411DD5C3EB00825E32 /* UIViewController+Authorization.m */,
+				364D92421DD5C3EB00825E32 /* YDActionItemProtocol.h */,
+				364D92431DD5C3EB00825E32 /* YDAudioPressShortView.h */,
+				364D92441DD5C3EB00825E32 /* YDAudioPressShortView.m */,
+				364D92451DD5C3EB00825E32 /* YDCancelSendView.h */,
+				364D92461DD5C3EB00825E32 /* YDCancelSendView.m */,
+				364D92471DD5C3EB00825E32 /* YDChatBaseViewController.h */,
+				364D92481DD5C3EB00825E32 /* YDChatBaseViewController.m */,
+				364D92491DD5C3EB00825E32 /* YDChatBottomToolView.h */,
+				364D924A1DD5C3EB00825E32 /* YDChatBottomToolView.m */,
+				364D924B1DD5C3EB00825E32 /* YDChatPlusView.h */,
+				364D924C1DD5C3EB00825E32 /* YDChatPlusView.m */,
+				364D924D1DD5C3EB00825E32 /* YDChatRefreshControl.h */,
+				364D924E1DD5C3EB00825E32 /* YDChatRefreshControl.m */,
+				364D924F1DD5C3EB00825E32 /* YDEmojiKeyboardCell.h */,
+				364D92501DD5C3EB00825E32 /* YDEmojiKeyboardCell.m */,
+				364D92511DD5C3EB00825E32 /* YDEmojiKeyboardView.h */,
+				364D92521DD5C3EB00825E32 /* YDEmojiKeyboardView.m */,
+				364D92531DD5C3EB00825E32 /* YDMessageProtocol.h */,
+				364D92541DD5C3EB00825E32 /* YDPlusViewModel.h */,
+				364D92551DD5C3EB00825E32 /* YDPlusViewModel.m */,
+				364D92561DD5C3EB00825E32 /* YDRecordingView.h */,
+				364D92571DD5C3EB00825E32 /* YDRecordingView.m */,
 			);
 			path = YDIMKit;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				364D91A21DD5660000825E32 /* chat_from_bg_normal@2x.png in Resources */,
-				364D92171DD5AA9100825E32 /* chat.bundle in Resources */,
+				364D92581DD5C3EB00825E32 /* chat.bundle in Resources */,
 				364D91531DD5630300825E32 /* LaunchScreen.storyboard in Resources */,
 				364D91501DD5630300825E32 /* Assets.xcassets in Resources */,
 				364D91A31DD5660000825E32 /* chat_to_bg_normal@2x.png in Resources */,
@@ -380,32 +380,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364D92271DD5AA9100825E32 /* YDPlusViewModel.m in Sources */,
-				364D921C1DD5AA9100825E32 /* UIView+HUD.m in Sources */,
+				364D92641DD5C3EB00825E32 /* YDChatPlusView.m in Sources */,
+				364D925D1DD5C3EB00825E32 /* UIView+HUD.m in Sources */,
+				364D92591DD5C3EB00825E32 /* NSString+Emoji.m in Sources */,
+				364D92621DD5C3EB00825E32 /* YDChatBaseViewController.m in Sources */,
+				364D92661DD5C3EB00825E32 /* YDEmojiKeyboardCell.m in Sources */,
+				364D92691DD5C3EB00825E32 /* YDRecordingView.m in Sources */,
+				364D92671DD5C3EB00825E32 /* YDEmojiKeyboardView.m in Sources */,
 				364D91A41DD5660000825E32 /* YDJoyImageMessageCell.m in Sources */,
+				364D92681DD5C3EB00825E32 /* YDPlusViewModel.m in Sources */,
 				364D914B1DD5630300825E32 /* ViewController.m in Sources */,
-				364D92261DD5AA9100825E32 /* YDEmojiKeyboardView.m in Sources */,
-				364D92211DD5AA9100825E32 /* YDChatBaseViewController.m in Sources */,
-				364D921D1DD5AA9100825E32 /* UIView+SWAutoLayout.m in Sources */,
-				364D92251DD5AA9100825E32 /* YDEmojiKeyboardCell.m in Sources */,
-				364D921E1DD5AA9100825E32 /* UIViewController+Authorization.m in Sources */,
-				364D92201DD5AA9100825E32 /* YDCancelSendView.m in Sources */,
-				364D92181DD5AA9100825E32 /* NSString+Emoji.m in Sources */,
 				364D91A51DD5660000825E32 /* YDMessageCell.m in Sources */,
+				364D92601DD5C3EB00825E32 /* YDAudioPressShortView.m in Sources */,
 				364D922D1DD5AAAB00825E32 /* YDBaseMessage.m in Sources */,
-				364D92191DD5AA9100825E32 /* UIColor+Hex.m in Sources */,
-				364D921A1DD5AA9100825E32 /* UIImage+Bundle.m in Sources */,
+				364D925B1DD5C3EB00825E32 /* UIImage+Bundle.m in Sources */,
 				364D91481DD5630300825E32 /* AppDelegate.m in Sources */,
+				364D925F1DD5C3EB00825E32 /* UIViewController+Authorization.m in Sources */,
+				364D92651DD5C3EB00825E32 /* YDChatRefreshControl.m in Sources */,
 				364D922E1DD5AAAB00825E32 /* YDImageMessage.m in Sources */,
+				364D92631DD5C3EB00825E32 /* YDChatBottomToolView.m in Sources */,
+				364D925E1DD5C3EB00825E32 /* UIView+SWAutoLayout.m in Sources */,
 				364D91451DD5630300825E32 /* main.m in Sources */,
-				364D921B1DD5AA9100825E32 /* UIImage+Color.m in Sources */,
-				364D92281DD5AA9100825E32 /* YDRecordingView.m in Sources */,
+				364D925A1DD5C3EB00825E32 /* UIColor+Hex.m in Sources */,
 				364D91A71DD5660000825E32 /* ORColorUtil.m in Sources */,
-				364D921F1DD5AA9100825E32 /* YDAudioPressShortView.m in Sources */,
-				364D92221DD5AA9100825E32 /* YDChatBottomToolView.m in Sources */,
-				364D92231DD5AA9100825E32 /* YDChatPlusView.m in Sources */,
-				364D92241DD5AA9100825E32 /* YDChatRefreshControl.m in Sources */,
 				364D91A61DD5660000825E32 /* YDTextMessageCell.m in Sources */,
+				364D925C1DD5C3EB00825E32 /* UIImage+Color.m in Sources */,
+				364D92611DD5C3EB00825E32 /* YDCancelSendView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

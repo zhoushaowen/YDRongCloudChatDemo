@@ -32,7 +32,7 @@ typedef NS_ENUM(NSUInteger, YDChatInputStyle) {
  分页加载的消息个数,默认值是15
  */
 @property (nonatomic) NSInteger numberOfPageCount;
-
+@property (nonatomic,strong,readonly) UITableView *chatTableView;
 @property (nonatomic,strong) UIColor *chatTableViewBackgroundColor;
 @property (nonatomic,strong) UIColor *chatToolBarBackgroundColor;
 @property (nonatomic,strong) UIColor *inputViewBackgroundColor;

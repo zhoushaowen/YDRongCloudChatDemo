@@ -38,7 +38,7 @@ UINavigationControllerDelegate
 
 @property (nonatomic,strong) NSCache *rowHeightCache;
 @property (nonatomic,strong) NSMutableArray *messageTypes;
-@property (nonatomic,strong) NSArray *dataArray;
+@property (nonatomic,strong) NSArray<id<YDMessageProtocol>> *dataArray;
 @property (nonatomic,strong) YDChatRefreshControl *chatRefreshControl;
 
 @end
@@ -77,6 +77,7 @@ UINavigationControllerDelegate
     _tableView.delegate = self;
     _tableView.dataSource = self;
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    _chatTableView = _tableView;
     self.chatTableViewBackgroundColor = _tableView.backgroundColor;
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_10_0
     if([[UIDevice currentDevice].systemVersion doubleValue] >= 10.0f)
@@ -107,6 +108,22 @@ UINavigationControllerDelegate
     _emojiSendBtnBackgroundColor = _bottomToolView.emojiSendBtnBackgroundColor;
 }
 
+void dynamicMethodIMP(id self,SEL _cmd,id parameter)
+{
+    unsigned int count;
+    Ivar *vars = class_copyIvarList([self class], &count);//获取所有成员变量
+    for(int i = 0; i < count; i++)
+    {
+        Ivar var = vars[i];
+        NSString *name = [NSString stringWithUTF8String:ivar_getName(var)];
+        if([name isEqualToString:@"_indexPath"])
+        {
+            object_setIvar(self, var, parameter);
+            break;
+        }
+    }
+}
+
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -115,10 +132,11 @@ UINavigationControllerDelegate
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    id model = self.dataArray[indexPath.row];
+    id<YDMessageProtocol> model = self.dataArray[indexPath.row];
+    class_addMethod([model class], @selector(setIndexPath:), (IMP)dynamicMethodIMP, "v@:@");
+    [model performSelector:@selector(setIndexPath:) withObject:indexPath];
     const char * classCString = object_getClassName(model);
     NSString *className = [NSString stringWithCString:classCString encoding:NSUTF8StringEncoding];
-
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[className stringByAppendingString:@"-YDChatCell"] forIndexPath:indexPath];
     SEL selector = NSSelectorFromString(@"setDataModel:");
     NSString *str = [NSString stringWithFormat:@"%@必须实现setDataModel:方法",className];
@@ -135,6 +153,11 @@ UINavigationControllerDelegate
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return [self getTableViewCellHeight:tableView forRowAtIndexPath:indexPath];
+}
+
+- (CGFloat)getTableViewCellHeight:(UITableView *)tableView forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *key = [NSString stringWithFormat:@"%ld",indexPath.row];
     CGFloat height = [[self.rowHeightCache objectForKey:key] doubleValue];
@@ -164,6 +187,7 @@ UINavigationControllerDelegate
     [invocation getReturnValue:&height];
     [self.rowHeightCache setObject:@(height) forKey:key];
     return height;
+
 }
 
 #pragma mark - UITableViewDelegate
@@ -178,29 +202,7 @@ UINavigationControllerDelegate
 - (void)tableView:(UITableView *)tableView prefetchRowsAtIndexPaths:(NSArray<NSIndexPath *> *)indexPaths
 {
     [indexPaths enumerateObjectsUsingBlock:^(NSIndexPath * _Nonnull indexPath, NSUInteger idx, BOOL * _Nonnull stop) {
-        NSString *key = [NSString stringWithFormat:@"%ld",indexPath.row];
-        CGFloat height = [[self.rowHeightCache objectForKey:key] doubleValue];
-        if(height)
-        {
-            return;
-        }
-        id model = self.dataArray[indexPath.row];
-        const char * classCString = object_getClassName(model);
-        NSString *className = [NSString stringWithCString:classCString encoding:NSUTF8StringEncoding];
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[className stringByAppendingString:@"-YDChatCell"]];
-        SEL selector = NSSelectorFromString(@"rowHeightWithModel:");
-        NSString *str = [NSString stringWithFormat:@"%@必须实现rowHeightWithModel:方法",className];
-        NSAssert([cell respondsToSelector:selector], str);
-        NSMethodSignature *signature = [cell methodSignatureForSelector:selector];
-        NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];
-        invocation.target = cell;
-        invocation.selector = selector;
-        [invocation setArgument:&model atIndex:2];
-        [invocation invoke];
-        NSAssert(signature.methodReturnLength > 0, @"rowHeightWithModel:方法必须要有返回值");
-        NSAssert(strcmp(signature.methodReturnType, "d") == 0 || strcmp(signature.methodReturnType, "f") == 0, @"rowHeightWithModel:方法的返回值必须是CGFloat");
-        [invocation getReturnValue:&height];
-        [self.rowHeightCache setObject:@(height) forKey:key];
+        [self getTableViewCellHeight:tableView forRowAtIndexPath:indexPath];
     }];
     
 }

@@ -29,6 +29,6 @@ typedef NS_ENUM(NSUInteger, YDMessageSendStatus) {
 @property (nonatomic) BOOL displayTime;
 @property (nonatomic,strong) NSString *timeStr;
 @property (nonatomic) YDMessageSendStatus messageStatus;
-
+@property (nonatomic,strong,readonly) NSIndexPath *indexPath;
 
 @end
