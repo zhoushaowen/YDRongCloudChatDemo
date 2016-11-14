@@ -12,7 +12,6 @@
 @interface YDBaseMessage : NSObject<YDMessageProtocol>
 
 @property (nonatomic,strong) NSString *name;
-@property (nonatomic,strong) NSString *content;
 
 /**
  *   是否是消息接收方 

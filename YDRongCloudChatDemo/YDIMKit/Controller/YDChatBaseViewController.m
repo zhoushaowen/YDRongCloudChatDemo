@@ -17,15 +17,7 @@
 extern CGFloat const YDKeyboardHeight;
 #define YDBottomToolViewOriginalHeight 49
 
-@interface YDChatBaseViewController ()<
-UITableViewDelegate,
-UITableViewDataSource,
-YDChatBottomToolViewDelegate,
-UIGestureRecognizerDelegate,
-UITableViewDataSourcePrefetching,
-UIImagePickerControllerDelegate,
-UINavigationControllerDelegate
->
+@interface YDChatBaseViewController ()<YDChatBottomToolViewDelegate>
 {
     UITableView *_tableView;
     YDChatBottomToolView *_bottomToolView;
@@ -380,10 +372,12 @@ void dynamicMethodIMP(id self,SEL _cmd,id parameter)
 }
 
 #pragma mark - Public
-- (void)setInitializedDataArray:(NSArray *)dataArray
+- (void)setInitializedDataArray:(NSArray<id<YDMessageProtocol>> *)dataArray
 {
+    if(dataArray.count < 1)
+        return;
     self.dataArray = dataArray;
-    if(dataArray.count > self.numberOfPageCount)
+    if(dataArray.count >= self.numberOfPageCount)
     {
         _tableView.refreshControl = self.chatRefreshControl;
     }else{
@@ -419,6 +413,7 @@ void dynamicMethodIMP(id self,SEL _cmd,id parameter)
 {
     [self.rowHeightCache removeAllObjects];
     [_tableView reloadData];
+    [self tableViewScrollToLastIndexAnimated:NO];
 }
 
 - (void)chatControllerDeleteMessageAtIndex:(NSInteger)index
@@ -442,6 +437,15 @@ void dynamicMethodIMP(id self,SEL _cmd,id parameter)
     [self chatControllerDeleteMessageAtIndex:index];
 }
 
+- (void)chatControllerDeleteMessages:(NSArray<id<YDMessageProtocol>> *)messages
+{
+    if(messages.count < 1)
+        return;
+    [messages enumerateObjectsUsingBlock:^(id<YDMessageProtocol>  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [self chatControllerDeleteMessage:obj];
+    }];
+}
+
 - (void)chatControllerReplaceMessageWithNewMessage:(id<YDMessageProtocol>)newMessage atIndex:(NSInteger)index
 {
     NSMutableArray *mutableArr = [_dataArray mutableCopy];
@@ -450,6 +454,12 @@ void dynamicMethodIMP(id self,SEL _cmd,id parameter)
     [_tableView beginUpdates];
     [_tableView reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:index inSection:0]] withRowAnimation:UITableViewRowAnimationNone];
     [_tableView endUpdates];
+}
+
+- (void)chatControllerClearAllMessages
+{
+    self.dataArray = nil;
+    [self reloadTableView];
 }
 
 - (void)registerMessageClass:(Class)messageClass forCellClass:(Class)cellClass
@@ -536,15 +546,15 @@ void dynamicMethodIMP(id self,SEL _cmd,id parameter)
 
 - (void)refresh
 {
-    [self chatControllerBeginPullToRefreshCompletionHandler:^(NSArray *data) {
+    [self chatControllerBeginPullToRefreshCompletionHandler:^(NSArray *newMessages) {
         [_tableView.refreshControl endRefreshing];
-        if(data.count > 0)
+        if(newMessages.count > 0)
         {
             NSMutableArray *mutableArr = [NSMutableArray arrayWithArray:_dataArray];
-            [mutableArr insertObjects:data atIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, data.count)]];
+            [mutableArr insertObjects:newMessages atIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, newMessages.count)]];
             self.dataArray = mutableArr;
-            [_tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:data.count - 1 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:NO];
-            if(data.count < self.numberOfPageCount)
+            [_tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:newMessages.count - 1 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:NO];
+            if(newMessages.count < self.numberOfPageCount)
             {
                 _tableView.refreshControl = nil;
             }
@@ -555,7 +565,7 @@ void dynamicMethodIMP(id self,SEL _cmd,id parameter)
     }];
 }
 
-- (void)chatControllerBeginPullToRefreshCompletionHandler:(void(^)(NSArray *data))completionHandler{}
+- (void)chatControllerBeginPullToRefreshCompletionHandler:(void(^)(NSArray<id<YDMessageProtocol>> *newMessages))completionHandler{}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

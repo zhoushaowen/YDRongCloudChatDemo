@@ -15,7 +15,7 @@ typedef NS_ENUM(NSUInteger, YDMessageDirection) {
 
 //消息的发送状态
 typedef NS_ENUM(NSUInteger, YDMessageSendStatus) {
-    YDMessageSendStatusLoading,//发送中
+    YDMessageSendStatusSending,//发送中
     YDMessageSendStatusSuccess,//发送成功
     YDMessageSendStatusFail,//发送失败
 };

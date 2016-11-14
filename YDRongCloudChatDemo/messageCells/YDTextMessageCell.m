@@ -7,7 +7,7 @@
 //
 
 #import "YDTextMessageCell.h"
-#import "YDBaseMessage.h"
+#import "YDTextMessage.h"
 
 @interface YDTextMessageCell()
 @property (nonatomic,strong) UILabel *contentLab;
@@ -105,7 +105,7 @@
 - (void)setDataModel:(id)contentModel
 {
     [super setDataModel:contentModel];
-    YDBaseMessage *message = contentModel;
+    YDTextMessage *message = contentModel;
     
     self.displayTime = message.displayTime;
     self.isReceiver = message.isReceiver;
@@ -127,7 +127,7 @@
             make.bottom.mas_equalTo(-10);
         }];
     }
-    self.contentLab.text = message.content;
+    self.contentLab.text = message.messageContent;
     self.timeLabel.text = message.timeStr;
     self.nameLabel.text = message.name;
 }

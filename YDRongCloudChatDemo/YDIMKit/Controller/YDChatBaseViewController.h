@@ -18,14 +18,14 @@ typedef NS_ENUM(NSUInteger, YDChatInputStyle) {
     YDChatInputStyleText,//文本
 };
 
-@interface YDChatBaseViewController : UIViewController
+@interface YDChatBaseViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UITableViewDataSourcePrefetching,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 /**
  设置初始化的消息数据
 
  @param dataArray 消息数组
  */
-- (void)setInitializedDataArray:(NSArray *)dataArray;
+- (void)setInitializedDataArray:(NSArray<id<YDMessageProtocol>> *)dataArray;
 
 
 /**
@@ -91,8 +91,11 @@ typedef NS_ENUM(NSUInteger, YDChatInputStyle) {
  */
 - (void)chatControllerDeleteMessage:(id<YDMessageProtocol>)message;
 
+- (void)chatControllerDeleteMessages:(NSArray<id<YDMessageProtocol>> *)messages;
+
 - (void)chatControllerReplaceMessageWithNewMessage:(id<YDMessageProtocol>)newMessage atIndex:(NSInteger)index;
 
+- (void)chatControllerClearAllMessages;
 
 /**
  开始发送文本消息
@@ -109,7 +112,7 @@ typedef NS_ENUM(NSUInteger, YDChatInputStyle) {
 
  @param completionHandler 获取完之后之后需要手动调用的block
  */
-- (void)chatControllerBeginPullToRefreshCompletionHandler:(void(^)(NSArray *data))completionHandler;
+- (void)chatControllerBeginPullToRefreshCompletionHandler:(void(^)(NSArray<id<YDMessageProtocol>> *newMessages))completionHandler;
 
 
 /**

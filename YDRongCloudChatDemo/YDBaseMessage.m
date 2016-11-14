@@ -17,6 +17,6 @@
 @synthesize displayTime = _displayTime;
 @synthesize timeStr =_timeStr;
 @synthesize messageStatus = _messageStatus;
-
+@synthesize indexPath = _indexPath;
 
 @end
