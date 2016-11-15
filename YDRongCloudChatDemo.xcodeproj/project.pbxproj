@@ -22,28 +22,11 @@
 		364D922D1DD5AAAB00825E32 /* YDBaseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D922A1DD5AAAB00825E32 /* YDBaseMessage.m */; };
 		364D922E1DD5AAAB00825E32 /* YDImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D922C1DD5AAAB00825E32 /* YDImageMessage.m */; };
 		36F41F8C1DD9576600C328AC /* YDTextMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41F8B1DD9576600C328AC /* YDTextMessage.m */; };
-		36F41FFB1DD99B2C00C328AC /* YDChatBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FD21DD99B2C00C328AC /* YDChatBaseViewController.m */; };
-		36F41FFC1DD99B2C00C328AC /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FD51DD99B2C00C328AC /* NSString+Emoji.m */; };
-		36F41FFD1DD99B2C00C328AC /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FD71DD99B2C00C328AC /* UIColor+Hex.m */; };
-		36F41FFE1DD99B2C00C328AC /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FD91DD99B2C00C328AC /* UIImage+Bundle.m */; };
-		36F41FFF1DD99B2C00C328AC /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FDB1DD99B2C00C328AC /* UIImage+Color.m */; };
-		36F420001DD99B2C00C328AC /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FDD1DD99B2C00C328AC /* UIView+HUD.m */; };
-		36F420011DD99B2C00C328AC /* UIView+SWAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FDF1DD99B2C00C328AC /* UIView+SWAutoLayout.m */; };
-		36F420021DD99B2C00C328AC /* UIViewController+Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FE11DD99B2C00C328AC /* UIViewController+Authorization.m */; };
-		36F420031DD99B2C00C328AC /* YDPlusViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FE41DD99B2C00C328AC /* YDPlusViewModel.m */; };
-		36F420041DD99B2C00C328AC /* chat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36F41FE91DD99B2C00C328AC /* chat.bundle */; };
-		36F420051DD99B2C00C328AC /* YDAudioPressShortView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FEC1DD99B2C00C328AC /* YDAudioPressShortView.m */; };
-		36F420061DD99B2C00C328AC /* YDCancelSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FEE1DD99B2C00C328AC /* YDCancelSendView.m */; };
-		36F420071DD99B2C00C328AC /* YDChatBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FF01DD99B2C00C328AC /* YDChatBottomToolView.m */; };
-		36F420081DD99B2C00C328AC /* YDChatPlusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FF21DD99B2C00C328AC /* YDChatPlusView.m */; };
-		36F420091DD99B2C00C328AC /* YDChatRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FF41DD99B2C00C328AC /* YDChatRefreshControl.m */; };
-		36F4200A1DD99B2C00C328AC /* YDEmojiKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FF61DD99B2C00C328AC /* YDEmojiKeyboardCell.m */; };
-		36F4200B1DD99B2C00C328AC /* YDEmojiKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FF81DD99B2C00C328AC /* YDEmojiKeyboardView.m */; };
-		36F4200C1DD99B2C00C328AC /* YDRecordingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F41FFA1DD99B2C00C328AC /* YDRecordingView.m */; };
-		A75B2B250113C0D4B094AE4B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 883897BA2D4979A5891345C2 /* libPods.a */; };
+		DECD7352C63AD08D7EAC9820 /* libPods-YDRongCloudChatDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE4051719097866B0BB083F /* libPods-YDRongCloudChatDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28ADE524F4D57416A80EF315 /* Pods-YDRongCloudChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDRongCloudChatDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDRongCloudChatDemo/Pods-YDRongCloudChatDemo.release.xcconfig"; sourceTree = "<group>"; };
 		364D91401DD5630300825E32 /* YDRongCloudChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDRongCloudChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364D91441DD5630300825E32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		364D91461DD5630300825E32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,46 +53,8 @@
 		364D922C1DD5AAAB00825E32 /* YDImageMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDImageMessage.m; sourceTree = "<group>"; };
 		36F41F8A1DD9576600C328AC /* YDTextMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTextMessage.h; sourceTree = "<group>"; };
 		36F41F8B1DD9576600C328AC /* YDTextMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDTextMessage.m; sourceTree = "<group>"; };
-		36F41FD11DD99B2C00C328AC /* YDChatBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatBaseViewController.h; sourceTree = "<group>"; };
-		36F41FD21DD99B2C00C328AC /* YDChatBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatBaseViewController.m; sourceTree = "<group>"; };
-		36F41FD41DD99B2C00C328AC /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
-		36F41FD51DD99B2C00C328AC /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
-		36F41FD61DD99B2C00C328AC /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		36F41FD71DD99B2C00C328AC /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		36F41FD81DD99B2C00C328AC /* UIImage+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
-		36F41FD91DD99B2C00C328AC /* UIImage+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
-		36F41FDA1DD99B2C00C328AC /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		36F41FDB1DD99B2C00C328AC /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
-		36F41FDC1DD99B2C00C328AC /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
-		36F41FDD1DD99B2C00C328AC /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
-		36F41FDE1DD99B2C00C328AC /* UIView+SWAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SWAutoLayout.h"; sourceTree = "<group>"; };
-		36F41FDF1DD99B2C00C328AC /* UIView+SWAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SWAutoLayout.m"; sourceTree = "<group>"; };
-		36F41FE01DD99B2C00C328AC /* UIViewController+Authorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Authorization.h"; sourceTree = "<group>"; };
-		36F41FE11DD99B2C00C328AC /* UIViewController+Authorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Authorization.m"; sourceTree = "<group>"; };
-		36F41FE31DD99B2C00C328AC /* YDPlusViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPlusViewModel.h; sourceTree = "<group>"; };
-		36F41FE41DD99B2C00C328AC /* YDPlusViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPlusViewModel.m; sourceTree = "<group>"; };
-		36F41FE61DD99B2C00C328AC /* YDActionItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDActionItemProtocol.h; sourceTree = "<group>"; };
-		36F41FE71DD99B2C00C328AC /* YDMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMessageProtocol.h; sourceTree = "<group>"; };
-		36F41FE91DD99B2C00C328AC /* chat.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = chat.bundle; sourceTree = "<group>"; };
-		36F41FEB1DD99B2C00C328AC /* YDAudioPressShortView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAudioPressShortView.h; sourceTree = "<group>"; };
-		36F41FEC1DD99B2C00C328AC /* YDAudioPressShortView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAudioPressShortView.m; sourceTree = "<group>"; };
-		36F41FED1DD99B2C00C328AC /* YDCancelSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCancelSendView.h; sourceTree = "<group>"; };
-		36F41FEE1DD99B2C00C328AC /* YDCancelSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCancelSendView.m; sourceTree = "<group>"; };
-		36F41FEF1DD99B2C00C328AC /* YDChatBottomToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatBottomToolView.h; sourceTree = "<group>"; };
-		36F41FF01DD99B2C00C328AC /* YDChatBottomToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatBottomToolView.m; sourceTree = "<group>"; };
-		36F41FF11DD99B2C00C328AC /* YDChatPlusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatPlusView.h; sourceTree = "<group>"; };
-		36F41FF21DD99B2C00C328AC /* YDChatPlusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatPlusView.m; sourceTree = "<group>"; };
-		36F41FF31DD99B2C00C328AC /* YDChatRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatRefreshControl.h; sourceTree = "<group>"; };
-		36F41FF41DD99B2C00C328AC /* YDChatRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatRefreshControl.m; sourceTree = "<group>"; };
-		36F41FF51DD99B2C00C328AC /* YDEmojiKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmojiKeyboardCell.h; sourceTree = "<group>"; };
-		36F41FF61DD99B2C00C328AC /* YDEmojiKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmojiKeyboardCell.m; sourceTree = "<group>"; };
-		36F41FF71DD99B2C00C328AC /* YDEmojiKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmojiKeyboardView.h; sourceTree = "<group>"; };
-		36F41FF81DD99B2C00C328AC /* YDEmojiKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmojiKeyboardView.m; sourceTree = "<group>"; };
-		36F41FF91DD99B2C00C328AC /* YDRecordingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRecordingView.h; sourceTree = "<group>"; };
-		36F41FFA1DD99B2C00C328AC /* YDRecordingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRecordingView.m; sourceTree = "<group>"; };
-		883897BA2D4979A5891345C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE8237701B36643801C46C68 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		DA3FB911EAD6BE991A75D13E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		51C72F3DA0A23604BC78A18E /* Pods-YDRongCloudChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDRongCloudChatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YDRongCloudChatDemo/Pods-YDRongCloudChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6AE4051719097866B0BB083F /* libPods-YDRongCloudChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YDRongCloudChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,29 +62,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75B2B250113C0D4B094AE4B /* libPods.a in Frameworks */,
+				DECD7352C63AD08D7EAC9820 /* libPods-YDRongCloudChatDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02F2DDBE5F005B6B93FB17AD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DA3FB911EAD6BE991A75D13E /* Pods.debug.xcconfig */,
-				AE8237701B36643801C46C68 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		364D91371DD5630300825E32 = {
 			isa = PBXGroup;
 			children = (
 				364D91421DD5630300825E32 /* YDRongCloudChatDemo */,
 				364D91411DD5630300825E32 /* Products */,
-				02F2DDBE5F005B6B93FB17AD /* Pods */,
-				48779A93267A139868FEF16A /* Frameworks */,
+				A0B8EDDC1E14DFC63B3B659C /* Pods */,
+				99550D9233AD78B4642E80E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,7 +90,6 @@
 		364D91421DD5630300825E32 /* YDRongCloudChatDemo */ = {
 			isa = PBXGroup;
 			children = (
-				36F41FCF1DD99B2C00C328AC /* YDIMKit */,
 				364D91461DD5630300825E32 /* AppDelegate.h */,
 				364D91471DD5630300825E32 /* AppDelegate.m */,
 				364D91491DD5630300825E32 /* ViewController.h */,
@@ -208,104 +143,21 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
-		36F41FCF1DD99B2C00C328AC /* YDIMKit */ = {
+		99550D9233AD78B4642E80E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				36F41FD01DD99B2C00C328AC /* Controller */,
-				36F41FD31DD99B2C00C328AC /* Extension */,
-				36F41FE21DD99B2C00C328AC /* Model */,
-				36F41FE51DD99B2C00C328AC /* Protocol */,
-				36F41FE81DD99B2C00C328AC /* Source */,
-				36F41FEA1DD99B2C00C328AC /* View */,
-			);
-			path = YDIMKit;
-			sourceTree = "<group>";
-		};
-		36F41FD01DD99B2C00C328AC /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				36F41FD11DD99B2C00C328AC /* YDChatBaseViewController.h */,
-				36F41FD21DD99B2C00C328AC /* YDChatBaseViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		36F41FD31DD99B2C00C328AC /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				36F41FD41DD99B2C00C328AC /* NSString+Emoji.h */,
-				36F41FD51DD99B2C00C328AC /* NSString+Emoji.m */,
-				36F41FD61DD99B2C00C328AC /* UIColor+Hex.h */,
-				36F41FD71DD99B2C00C328AC /* UIColor+Hex.m */,
-				36F41FD81DD99B2C00C328AC /* UIImage+Bundle.h */,
-				36F41FD91DD99B2C00C328AC /* UIImage+Bundle.m */,
-				36F41FDA1DD99B2C00C328AC /* UIImage+Color.h */,
-				36F41FDB1DD99B2C00C328AC /* UIImage+Color.m */,
-				36F41FDC1DD99B2C00C328AC /* UIView+HUD.h */,
-				36F41FDD1DD99B2C00C328AC /* UIView+HUD.m */,
-				36F41FDE1DD99B2C00C328AC /* UIView+SWAutoLayout.h */,
-				36F41FDF1DD99B2C00C328AC /* UIView+SWAutoLayout.m */,
-				36F41FE01DD99B2C00C328AC /* UIViewController+Authorization.h */,
-				36F41FE11DD99B2C00C328AC /* UIViewController+Authorization.m */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		36F41FE21DD99B2C00C328AC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				36F41FE31DD99B2C00C328AC /* YDPlusViewModel.h */,
-				36F41FE41DD99B2C00C328AC /* YDPlusViewModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		36F41FE51DD99B2C00C328AC /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				36F41FE61DD99B2C00C328AC /* YDActionItemProtocol.h */,
-				36F41FE71DD99B2C00C328AC /* YDMessageProtocol.h */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		36F41FE81DD99B2C00C328AC /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				36F41FE91DD99B2C00C328AC /* chat.bundle */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		36F41FEA1DD99B2C00C328AC /* View */ = {
-			isa = PBXGroup;
-			children = (
-				36F41FEB1DD99B2C00C328AC /* YDAudioPressShortView.h */,
-				36F41FEC1DD99B2C00C328AC /* YDAudioPressShortView.m */,
-				36F41FED1DD99B2C00C328AC /* YDCancelSendView.h */,
-				36F41FEE1DD99B2C00C328AC /* YDCancelSendView.m */,
-				36F41FEF1DD99B2C00C328AC /* YDChatBottomToolView.h */,
-				36F41FF01DD99B2C00C328AC /* YDChatBottomToolView.m */,
-				36F41FF11DD99B2C00C328AC /* YDChatPlusView.h */,
-				36F41FF21DD99B2C00C328AC /* YDChatPlusView.m */,
-				36F41FF31DD99B2C00C328AC /* YDChatRefreshControl.h */,
-				36F41FF41DD99B2C00C328AC /* YDChatRefreshControl.m */,
-				36F41FF51DD99B2C00C328AC /* YDEmojiKeyboardCell.h */,
-				36F41FF61DD99B2C00C328AC /* YDEmojiKeyboardCell.m */,
-				36F41FF71DD99B2C00C328AC /* YDEmojiKeyboardView.h */,
-				36F41FF81DD99B2C00C328AC /* YDEmojiKeyboardView.m */,
-				36F41FF91DD99B2C00C328AC /* YDRecordingView.h */,
-				36F41FFA1DD99B2C00C328AC /* YDRecordingView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		48779A93267A139868FEF16A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				883897BA2D4979A5891345C2 /* libPods.a */,
+				6AE4051719097866B0BB083F /* libPods-YDRongCloudChatDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0B8EDDC1E14DFC63B3B659C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51C72F3DA0A23604BC78A18E /* Pods-YDRongCloudChatDemo.debug.xcconfig */,
+				28ADE524F4D57416A80EF315 /* Pods-YDRongCloudChatDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,12 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 364D91571DD5630300825E32 /* Build configuration list for PBXNativeTarget "YDRongCloudChatDemo" */;
 			buildPhases = (
-				8BA0A31AE22B60C8CCC7B689 /* Check Pods Manifest.lock */,
+				C2CD5A745B24A55FC298C15B /* [CP] Check Pods Manifest.lock */,
 				364D913C1DD5630300825E32 /* Sources */,
 				364D913D1DD5630300825E32 /* Frameworks */,
 				364D913E1DD5630300825E32 /* Resources */,
-				B7391120D61FFABB218B1FAD /* Embed Pods Frameworks */,
-				6439C7DBBC2289D03A55005D /* Copy Pods Resources */,
+				F16771FA63DE2E5C96B97543 /* [CP] Embed Pods Frameworks */,
+				F983B4E479416CB929A2B26E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -370,7 +222,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				364D91A21DD5660000825E32 /* chat_from_bg_normal@2x.png in Resources */,
-				36F420041DD99B2C00C328AC /* chat.bundle in Resources */,
 				364D91531DD5630300825E32 /* LaunchScreen.storyboard in Resources */,
 				364D91501DD5630300825E32 /* Assets.xcassets in Resources */,
 				364D91A31DD5660000825E32 /* chat_to_bg_normal@2x.png in Resources */,
@@ -381,49 +232,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6439C7DBBC2289D03A55005D /* Copy Pods Resources */ = {
+		C2CD5A745B24A55FC298C15B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8BA0A31AE22B60C8CCC7B689 /* Check Pods Manifest.lock */ = {
+		F16771FA63DE2E5C96B97543 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YDRongCloudChatDemo/Pods-YDRongCloudChatDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B7391120D61FFABB218B1FAD /* Embed Pods Frameworks */ = {
+		F983B4E479416CB929A2B26E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YDRongCloudChatDemo/Pods-YDRongCloudChatDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -433,33 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F4200A1DD99B2C00C328AC /* YDEmojiKeyboardCell.m in Sources */,
 				364D91A41DD5660000825E32 /* YDJoyImageMessageCell.m in Sources */,
-				36F4200C1DD99B2C00C328AC /* YDRecordingView.m in Sources */,
-				36F420031DD99B2C00C328AC /* YDPlusViewModel.m in Sources */,
-				36F420071DD99B2C00C328AC /* YDChatBottomToolView.m in Sources */,
 				364D914B1DD5630300825E32 /* ViewController.m in Sources */,
-				36F41FFB1DD99B2C00C328AC /* YDChatBaseViewController.m in Sources */,
 				364D91A51DD5660000825E32 /* YDMessageCell.m in Sources */,
-				36F420091DD99B2C00C328AC /* YDChatRefreshControl.m in Sources */,
 				364D922D1DD5AAAB00825E32 /* YDBaseMessage.m in Sources */,
-				36F420081DD99B2C00C328AC /* YDChatPlusView.m in Sources */,
-				36F420011DD99B2C00C328AC /* UIView+SWAutoLayout.m in Sources */,
 				364D91481DD5630300825E32 /* AppDelegate.m in Sources */,
-				36F41FFC1DD99B2C00C328AC /* NSString+Emoji.m in Sources */,
-				36F420021DD99B2C00C328AC /* UIViewController+Authorization.m in Sources */,
 				36F41F8C1DD9576600C328AC /* YDTextMessage.m in Sources */,
-				36F4200B1DD99B2C00C328AC /* YDEmojiKeyboardView.m in Sources */,
 				364D922E1DD5AAAB00825E32 /* YDImageMessage.m in Sources */,
 				364D91451DD5630300825E32 /* main.m in Sources */,
-				36F420051DD99B2C00C328AC /* YDAudioPressShortView.m in Sources */,
-				36F420061DD99B2C00C328AC /* YDCancelSendView.m in Sources */,
 				364D91A71DD5660000825E32 /* ORColorUtil.m in Sources */,
-				36F41FFE1DD99B2C00C328AC /* UIImage+Bundle.m in Sources */,
-				36F420001DD99B2C00C328AC /* UIView+HUD.m in Sources */,
-				36F41FFF1DD99B2C00C328AC /* UIImage+Color.m in Sources */,
 				364D91A61DD5660000825E32 /* YDTextMessageCell.m in Sources */,
-				36F41FFD1DD99B2C00C328AC /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +409,7 @@
 		};
 		364D91581DD5630300825E32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA3FB911EAD6BE991A75D13E /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 51C72F3DA0A23604BC78A18E /* Pods-YDRongCloudChatDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -590,7 +424,7 @@
 		};
 		364D91591DD5630300825E32 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE8237701B36643801C46C68 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 28ADE524F4D57416A80EF315 /* Pods-YDRongCloudChatDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
